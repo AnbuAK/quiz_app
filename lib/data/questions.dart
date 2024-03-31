@@ -3,54 +3,90 @@ import 'package:quiz_app/models/quiz_questions.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'Who coined the term "AI"?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
+      'Alan Turing',
+      'Elon Musk',
+      'Mark Zuckerberg',
+      'John McCarthy',
     ],
   ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
+  QuizQuestion('Which programming language is widely used in AI?', [
+    'Python',
+    'Java',
+    'C++',
+    'Ruby',
   ]),
   QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
+    'What is the primary function of ChatGPT?',
     [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'Natural language understanding and generation',
+      'Image recognition',
+      'Text summarization',
+      'Speech synthesis',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'What type of neural network architecture does ChatGPT use?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Transformer',
+      'Convolutional Neural Network (CNN)',
+      'Long Short-Term Memory (LSTM)',
+      'Recursive Neural Network (RNN)',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'How does ChatGPT generate responses?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'By learning patterns from large datasets',
+      'By random selection from a set of phrases',
+      'By copying responses from a database',
+      'By retrieving pre-defined templates',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'What is the maximum context window for ChatGPT responses?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      '512 tokens',
+      '1024 tokens',
+      'Unlimited tokens',
+      '100 tokens',
+    ],
+  ),
+  QuizQuestion(
+    'Which of the following is a potential ethical concern related to ChatGPT?',
+    [
+      'Bias in generated responses',
+      'Limitations in computational resources',
+      'Lack of interpretability in model decisions',
+      'Difficulty in fine-tuning for specific tasks',
+    ],
+  ),
+  QuizQuestion(
+    'How does ChatGPT handle context in conversations?',
+    [
+      'By utilizing attention mechanisms',
+      'By applying reinforcement learning',
+      'By memorizing previous interactions',
+      'By analyzing semantic meaning',
+    ],
+  ),
+  QuizQuestion(
+    'In what year was ChatGPT first introduced?',
+    [
+      '2020',
+      '2021',
+      '2012',
+      '2016',
+    ],
+  ),
+  QuizQuestion(
+    'What is the significance of adversarial training in the context of deep learning?',
+    [
+      'It improves model robustness against adversarial attacks',
+      'It accelerates model training convergence',
+      'It enhances model interpretability',
+      'It helps in model compression',
     ],
   ),
 ];
